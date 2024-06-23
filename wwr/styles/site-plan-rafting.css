@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+ES:wght@100..400&family=Playwrite+NZ:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+:root {
+  --primary-color: #001d3d;
+  --secondary-color: #003566;
+  --accent1-color: #ffc300;
+  --accent2-color: #000814;
+
+  --heading-font: Playwrite New Zeland, serif;
+  --paragraph-font:Arial, serif;
+
+  --nav-background-color: #ffd60a;
+  --nav-link-color: #003566;
+  --nav-hover-link-color: #000814;
+  --nav-hover-background-color: #003566;
+}
+ 
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+     
+h1, h2, h3, h4 {
+  font-family: var(--heading-font), ;
+  color: var(--primary-color);
+}
+.scenarios {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
+  }
+  .scenario {
+    margin-bottom: 20px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+  }
+  
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
